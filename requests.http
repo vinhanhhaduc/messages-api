@@ -1,13 +1,13 @@
 ###List all messages
-GET http://localhost:3000/messages
+GET http://localhost:3001/messages
 
 ###Create a new message
-POST http://localhost:3000/messages
+POST http://localhost:3001/messages
 content-type: application/json
 
 {
-  "content": 123
+  "content": "0905519435"
 }
 
 ###Get a particular message
-GET http://localhost:3000/messages/124323232323232324
+GET http://localhost:3001/messages/0905519435 
